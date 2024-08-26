@@ -1,0 +1,128 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Spaghetti Carbonara",
+        "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+        "imagePath": "https://example.com/spaghetti-carbonara.jpg",
+        "prepTime": 15,
+        "cookTime": 20,
+        "servings": 4,
+        "category": "Main Course",
+        "ingredients": [
+          { "name": "Spaghetti", "amount": 200 },
+          { "name": "Pancetta", "amount": 100 },
+          { "name": "Eggs", "amount": 4 },
+          { "name": "Parmesan Cheese", "amount": 50 },
+          { "name": "Black Pepper", "amount": 1 }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Chicken Curry",
+        "description": "A flavorful and spicy Indian curry dish.",
+        "imagePath": "https://example.com/chicken-curry.jpg",
+        "prepTime": 20,
+        "cookTime": 30,
+        "servings": 4,
+        "category": "Main Course",
+        "ingredients": [
+          { "name": "Chicken", "amount": 500 },
+          { "name": "Onions", "amount": 2 },
+          { "name": "Tomatoes", "amount": 3 },
+          { "name": "Garlic", "amount": 3 },
+          { "name": "Ginger", "amount": 1 },
+          { "name": "Curry Powder", "amount": 2 }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Beef Stroganoff",
+        "description": "A Russian dish of sautéed pieces of beef served in a sauce with sour cream.",
+        "imagePath": "https://example.com/beef-stroganoff.jpg",
+        "prepTime": 25,
+        "cookTime": 35,
+        "servings": 4,
+        "category": "Main Course",
+        "ingredients": [
+          { "name": "Beef", "amount": 500 },
+          { "name": "Onions", "amount": 1 },
+          { "name": "Mushrooms", "amount": 200 },
+          { "name": "Sour Cream", "amount": 100 },
+          { "name": "Beef Broth", "amount": 250 },
+          { "name": "Dijon Mustard", "amount": 2 }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Vegetarian Tacos",
+        "description": "Delicious and healthy tacos filled with a variety of vegetables.",
+        "imagePath": "https://example.com/vegetarian-tacos.jpg",
+        "prepTime": 10,
+        "cookTime": 15,
+        "servings": 4,
+        "category": "Main Course",
+        "ingredients": [
+          { "name": "Tortillas", "amount": 8 },
+          { "name": "Bell Peppers", "amount": 3 },
+          { "name": "Onions", "amount": 1 },
+          { "name": "Avocado", "amount": 2 },
+          { "name": "Black Beans", "amount": 200 },
+          { "name": "Corn", "amount": 100 }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Chocolate Cake",
+        "description": "A rich and moist chocolate cake, perfect for any occasion.",
+        "imagePath": "https://example.com/chocolate-cake.jpg",
+        "prepTime": 30,
+        "cookTime": 40,
+        "servings": 8,
+        "category": "Dessert",
+        "ingredients": [
+          { "name": "Flour", "amount": 200 },
+          { "name": "Sugar", "amount": 200 },
+          { "name": "Cocoa Powder", "amount": 50 },
+          { "name": "Baking Powder", "amount": 2 },
+          { "name": "Eggs", "amount": 3 },
+          { "name": "Milk", "amount": 250 },
+          { "name": "Butter", "amount": 100 },
+          { "name": "Vanilla Extract", "amount": 1 }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Bruschetta",
+        "description": "An Italian appetizer consisting of grilled bread topped with tomatoes and basil.",
+        "imagePath": "https://example.com/bruschetta.jpg",
+        "prepTime": 10,
+        "cookTime": 5,
+        "servings": 6,
+        "category": "Appetizer",
+        "ingredients": [
+          { "name": "Baguette", "amount": 1 },
+          { "name": "Tomatoes", "amount": 4 },
+          { "name": "Basil", "amount": 1 },
+          { "name": "Garlic", "amount": 2 },
+          { "name": "Olive Oil", "amount": 3 }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Caesar Salad",
+        "description": "A classic salad with romaine lettuce, croutons, and Caesar dressing.",
+        "imagePath": "https://example.com/caesar-salad.jpg",
+        "prepTime": 15,
+        "cookTime": 0,
+        "servings": 4,
+        "category": "Salad",
+        "ingredients": [
+          { "name": "Romaine Lettuce", "amount": 1 },
+          { "name": "Croutons", "amount": 100 },
+          { "name": "Parmesan Cheese", "amount": 50 },
+          { "name": "Caesar Dressing", "amount": 100 }
+        ]
+      }
+    ]
+  }
