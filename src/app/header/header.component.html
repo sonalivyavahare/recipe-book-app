@@ -1,1 +1,11 @@
-<p>header works!</p>
+<nav class="navbar navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.png" alt="Logo" width="50" height="auto" >
+            <h1>Cooking <span>Book</span></h1>
+        </a>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" (input)="onSearchChange($event)" placeholder="Search" style="--color: #ff642b;" />   
+        </form>
+    </div>
+</nav>

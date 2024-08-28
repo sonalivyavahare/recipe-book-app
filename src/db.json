@@ -1,128 +1,174 @@
 {
     "recipes": [
       {
-        "id": 1,
+        "id": 1,                                                    
         "name": "Spaghetti Carbonara",
         "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
-        "imagePath": "https://example.com/spaghetti-carbonara.jpg",
+        "imagePath": "https://plus.unsplash.com/premium_photo-1705409892694-39677f828078",
         "prepTime": 15,
         "cookTime": 20,
         "servings": 4,
         "category": "Main Course",
         "ingredients": [
-          { "name": "Spaghetti", "amount": 200 },
-          { "name": "Pancetta", "amount": 100 },
-          { "name": "Eggs", "amount": 4 },
-          { "name": "Parmesan Cheese", "amount": 50 },
-          { "name": "Black Pepper", "amount": 1 }
+          { "name": "Spaghetti", "amount": 200, "unit": "g" },
+          { "name": "Pancetta", "amount": 100, "unit": "g" },
+          { "name": "Eggs", "amount": 4, "unit": "pcs" },
+          { "name": "Parmesan Cheese", "amount": 50, "unit": "g" },
+          { "name": "Black Pepper", "amount": 1, "unit": "tsp" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Cook the spaghetti in a large pot of boiling salted water until al dente, about 8-10 minutes."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "In a pan, cook the pancetta over medium heat until crispy, about 5-7 minutes."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "In a bowl, whisk together the eggs, grated Parmesan cheese, and black pepper."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Drain the spaghetti and add it to the pan with pancetta. Remove from heat and quickly mix in the egg mixture."
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Toss everything together until the pasta is evenly coated and creamy. Serve immediately."
+          }
         ]
       },
       {
         "id": 2,
         "name": "Chicken Curry",
         "description": "A flavorful and spicy Indian curry dish.",
-        "imagePath": "https://example.com/chicken-curry.jpg",
+        "imagePath": "https://plus.unsplash.com/premium_photo-1661780307431-c21fd96e4129",
         "prepTime": 20,
         "cookTime": 30,
         "servings": 4,
         "category": "Main Course",
         "ingredients": [
-          { "name": "Chicken", "amount": 500 },
-          { "name": "Onions", "amount": 2 },
-          { "name": "Tomatoes", "amount": 3 },
-          { "name": "Garlic", "amount": 3 },
-          { "name": "Ginger", "amount": 1 },
-          { "name": "Curry Powder", "amount": 2 }
+          { "name": "Chicken", "amount": 500, "unit": "g" },
+          { "name": "Onions", "amount": 2, "unit": "pcs" },
+          { "name": "Tomatoes", "amount": 3, "unit": "pcs" },
+          { "name": "Garlic", "amount": 3, "unit": "cloves" },
+          { "name": "Ginger", "amount": 1, "unit": "inch" },
+          { "name": "Curry Powder", "amount": 2, "unit": "tbsp" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Heat oil in a large pan over medium heat. Add finely chopped onions and sauté until golden brown."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Add minced garlic and ginger to the pan and cook for another 2 minutes."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Add diced tomatoes and cook until they break down into a thick sauce."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Stir in the curry powder and cook for 1 minute to release its flavors."
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Add the chicken pieces and cook until they are browned on all sides."
+          },
+          {
+            "stepNumber": 6,
+            "instruction": "Pour in enough water to cover the chicken, bring to a boil, then reduce heat and simmer for 20 minutes."
+          },
+          {
+            "stepNumber": 7,
+            "instruction": "Adjust seasoning with salt and pepper, then serve hot with rice or naan."
+          }
         ]
       },
       {
         "id": 3,
-        "name": "Beef Stroganoff",
-        "description": "A Russian dish of sautéed pieces of beef served in a sauce with sour cream.",
-        "imagePath": "https://example.com/beef-stroganoff.jpg",
-        "prepTime": 25,
-        "cookTime": 35,
-        "servings": 4,
-        "category": "Main Course",
-        "ingredients": [
-          { "name": "Beef", "amount": 500 },
-          { "name": "Onions", "amount": 1 },
-          { "name": "Mushrooms", "amount": 200 },
-          { "name": "Sour Cream", "amount": 100 },
-          { "name": "Beef Broth", "amount": 250 },
-          { "name": "Dijon Mustard", "amount": 2 }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Vegetarian Tacos",
-        "description": "Delicious and healthy tacos filled with a variety of vegetables.",
-        "imagePath": "https://example.com/vegetarian-tacos.jpg",
-        "prepTime": 10,
-        "cookTime": 15,
-        "servings": 4,
-        "category": "Main Course",
-        "ingredients": [
-          { "name": "Tortillas", "amount": 8 },
-          { "name": "Bell Peppers", "amount": 3 },
-          { "name": "Onions", "amount": 1 },
-          { "name": "Avocado", "amount": 2 },
-          { "name": "Black Beans", "amount": 200 },
-          { "name": "Corn", "amount": 100 }
-        ]
-      },
-      {
-        "id": 5,
         "name": "Chocolate Cake",
         "description": "A rich and moist chocolate cake, perfect for any occasion.",
-        "imagePath": "https://example.com/chocolate-cake.jpg",
+        "imagePath": "https://images.unsplash.com/photo-1586985289906-406988974504",
         "prepTime": 30,
         "cookTime": 40,
         "servings": 8,
         "category": "Dessert",
         "ingredients": [
-          { "name": "Flour", "amount": 200 },
-          { "name": "Sugar", "amount": 200 },
-          { "name": "Cocoa Powder", "amount": 50 },
-          { "name": "Baking Powder", "amount": 2 },
-          { "name": "Eggs", "amount": 3 },
-          { "name": "Milk", "amount": 250 },
-          { "name": "Butter", "amount": 100 },
-          { "name": "Vanilla Extract", "amount": 1 }
+          { "name": "Flour", "amount": 200, "unit": "g" },
+          { "name": "Sugar", "amount": 200, "unit": "g" },
+          { "name": "Cocoa Powder", "amount": 50, "unit": "g" },
+          { "name": "Baking Powder", "amount": 2, "unit": "tsp" },
+          { "name": "Eggs", "amount": 3, "unit": "pcs" },
+          { "name": "Milk", "amount": 250, "unit": "ml" },
+          { "name": "Butter", "amount": 100, "unit": "g" },
+          { "name": "Vanilla Extract", "amount": 1, "unit": "tsp" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Preheat the oven to 180°C (350°F) and grease a cake tin."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "In a bowl, sift together the flour, cocoa powder, and baking powder."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "In a separate bowl, beat the butter and sugar until light and fluffy. Add the eggs one at a time, beating well after each addition."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Gradually add the dry ingredients to the wet mixture, alternating with milk. Stir in the vanilla extract."
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Pour the batter into the prepared cake tin and bake for 35-40 minutes or until a skewer inserted into the center comes out clean."
+          },
+          {
+            "stepNumber": 6,
+            "instruction": "Let the cake cool in the tin for 10 minutes, then turn it out onto a wire rack to cool completely before frosting or serving."
+          }
         ]
       },
       {
-        "id": 6,
-        "name": "Bruschetta",
-        "description": "An Italian appetizer consisting of grilled bread topped with tomatoes and basil.",
-        "imagePath": "https://example.com/bruschetta.jpg",
-        "prepTime": 10,
-        "cookTime": 5,
-        "servings": 6,
-        "category": "Appetizer",
-        "ingredients": [
-          { "name": "Baguette", "amount": 1 },
-          { "name": "Tomatoes", "amount": 4 },
-          { "name": "Basil", "amount": 1 },
-          { "name": "Garlic", "amount": 2 },
-          { "name": "Olive Oil", "amount": 3 }
-        ]
-      },
-      {
-        "id": 7,
+        "id": 4,
         "name": "Caesar Salad",
-        "description": "A classic salad with romaine lettuce, croutons, and Caesar dressing.",
-        "imagePath": "https://example.com/caesar-salad.jpg",
+        "description": "A fresh and crisp salad with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+        "imagePath": "https://media.istockphoto.com/id/1338803225/photo/chicken-caesar-salad-with-the-classic-dressing-being-poured-and-croutons.jpg?b=1&s=612x612&w=0&k=20&c=avqOSb0XOWhhpYDrIy-RuAZXbXSvtVrN5iImdhLK99A=",
         "prepTime": 15,
         "cookTime": 0,
         "servings": 4,
         "category": "Salad",
         "ingredients": [
-          { "name": "Romaine Lettuce", "amount": 1 },
-          { "name": "Croutons", "amount": 100 },
-          { "name": "Parmesan Cheese", "amount": 50 },
-          { "name": "Caesar Dressing", "amount": 100 }
+          { "name": "Romaine Lettuce", "amount": 2, "unit": "heads" },
+          { "name": "Croutons", "amount": 1, "unit": "cup" },
+          { "name": "Parmesan Cheese", "amount": 50, "unit": "g" },
+          { "name": "Caesar Dressing", "amount": 100, "unit": "ml" },
+          { "name": "Lemon Juice", "amount": 1, "unit": "tbsp" },
+          { "name": "Black Pepper", "amount": 1, "unit": "tsp" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Wash and chop the romaine lettuce into bite-sized pieces."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "In a large bowl, toss the lettuce with croutons and grated Parmesan cheese."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Drizzle the Caesar dressing over the salad and toss to coat evenly."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Add lemon juice and freshly ground black pepper to taste. Serve immediately."
+          } 
         ]
       }
+      
     ]
   }

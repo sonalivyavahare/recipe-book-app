@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="latest-recipe">
+        <div class="col-7">
+            @if(latestRecipe.imagePath != ''){
+                <img src="{{ latestRecipe.imagePath }}" alt="">
+            }
+        </div>
+        <div class="col-5 latest-recipe-info">
+            <div class="text">
+                <h2>
+                    @if(latestRecipe.name != ''){
+                        Spaghetti Carbonara
+
+
+                    }
+                </h2>
+                <p class="rec-des">{{latestRecipe.description}}</p>
+                <a href="#0" class="circle circle-lg tstbite-arrow">
+                    <i class="fa-solid fa-arrow-right "></i>
+                </a>
+            </div>  
+        </div>
+    </div>
+
+    <div class="row recipies-list">
+        <!-- {{ latestRecipe.name }} -->
+        <h2>Super Delicious</h2>
+        @for( recipe of recipes | filter:searchTerm ; track recipe){
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-img">
+                    <img src="{{recipe.imagePath}}" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    @if(recipe.name ){
+                        <p class="card-text">{{recipe.name}}</p>
+                    }
+                    @if(recipe.category){
+                        <p class="recipe-category">{{recipe.category}}</p>
+                    }
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>

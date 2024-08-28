@@ -1,1 +1,3 @@
-<app-header></app-header>
+
+<app-header (searchTermChange)="searchTerm = $event"></app-header>
+<app-recipes [searchTerm]="searchTerm"></app-recipes>

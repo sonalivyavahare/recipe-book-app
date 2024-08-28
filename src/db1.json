@@ -1,0 +1,448 @@
+{
+    "recipes": [
+      {
+        "id": 1,                                                    
+        "name": "Spaghetti Carbonara",
+        "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+        "imagePath": "https://plus.unsplash.com/premium_photo-1705409892694-39677f828078",
+        "prepTime": 15,
+        "cookTime": 20,
+        "servings": 4,
+        "category": "Main Course",
+        "ingredients": [
+          { "name": "Spaghetti", "amount": 200, "unit": "g" },
+          { "name": "Pancetta", "amount": 100, "unit": "g" },
+          { "name": "Eggs", "amount": 4, "unit": "pcs" },
+          { "name": "Parmesan Cheese", "amount": 50, "unit": "g" },
+          { "name": "Black Pepper", "amount": 1, "unit": "tsp" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Cook the spaghetti in a large pot of boiling salted water until al dente, about 8-10 minutes."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "In a pan, cook the pancetta over medium heat until crispy, about 5-7 minutes."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "In a bowl, whisk together the eggs, grated Parmesan cheese, and black pepper."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Drain the spaghetti and add it to the pan with pancetta. Remove from heat and quickly mix in the egg mixture."
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Toss everything together until the pasta is evenly coated and creamy. Serve immediately."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Chicken Curry",
+        "description": "A flavorful and spicy Indian curry dish.",
+        "imagePath": "https://plus.unsplash.com/premium_photo-1661780307431-c21fd96e4129",
+        "prepTime": 20,
+        "cookTime": 30,
+        "servings": 4,
+        "category": "Main Course",
+        "ingredients": [
+          { "name": "Chicken", "amount": 500, "unit": "g" },
+          { "name": "Onions", "amount": 2, "unit": "pcs" },
+          { "name": "Tomatoes", "amount": 3, "unit": "pcs" },
+          { "name": "Garlic", "amount": 3, "unit": "cloves" },
+          { "name": "Ginger", "amount": 1, "unit": "inch" },
+          { "name": "Curry Powder", "amount": 2, "unit": "tbsp" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Heat oil in a large pan over medium heat. Add finely chopped onions and sauté until golden brown."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Add minced garlic and ginger to the pan and cook for another 2 minutes."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Add diced tomatoes and cook until they break down into a thick sauce."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Stir in the curry powder and cook for 1 minute to release its flavors."
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Add the chicken pieces and cook until they are browned on all sides."
+          },
+          {
+            "stepNumber": 6,
+            "instruction": "Pour in enough water to cover the chicken, bring to a boil, then reduce heat and simmer for 20 minutes."
+          },
+          {
+            "stepNumber": 7,
+            "instruction": "Adjust seasoning with salt and pepper, then serve hot with rice or naan."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Chocolate Cake",
+        "description": "A rich and moist chocolate cake, perfect for any occasion.",
+        "imagePath": "https://images.unsplash.com/photo-1586985289906-406988974504",
+        "prepTime": 30,
+        "cookTime": 40,
+        "servings": 8,
+        "category": "Dessert",
+        "ingredients": [
+          { "name": "Flour", "amount": 200, "unit": "g" },
+          { "name": "Sugar", "amount": 200, "unit": "g" },
+          { "name": "Cocoa Powder", "amount": 50, "unit": "g" },
+          { "name": "Baking Powder", "amount": 2, "unit": "tsp" },
+          { "name": "Eggs", "amount": 3, "unit": "pcs" },
+          { "name": "Milk", "amount": 250, "unit": "ml" },
+          { "name": "Butter", "amount": 100, "unit": "g" },
+          { "name": "Vanilla Extract", "amount": 1, "unit": "tsp" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Preheat the oven to 180°C (350°F) and grease a cake tin."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "In a bowl, sift together the flour, cocoa powder, and baking powder."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "In a separate bowl, beat the butter and sugar until light and fluffy. Add the eggs one at a time, beating well after each addition."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Gradually add the dry ingredients to the wet mixture, alternating with milk. Stir in the vanilla extract."
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Pour the batter into the prepared cake tin and bake for 35-40 minutes or until a skewer inserted into the center comes out clean."
+          },
+          {
+            "stepNumber": 6,
+            "instruction": "Let the cake cool in the tin for 10 minutes, then turn it out onto a wire rack to cool completely before frosting or serving."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Caesar Salad",
+        "description": "A fresh and crisp salad with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+        "imagePath": "https://media.istockphoto.com/id/1338803225/photo/chicken-caesar-salad-with-the-classic-dressing-being-poured-and-croutons.jpg?b=1&s=612x612&w=0&k=20&c=avqOSb0XOWhhpYDrIy-RuAZXbXSvtVrN5iImdhLK99A=",
+        "prepTime": 15,
+        "cookTime": 0,
+        "servings": 4,
+        "category": "Salad",
+        "ingredients": [
+          { "name": "Romaine Lettuce", "amount": 2, "unit": "heads" },
+          { "name": "Croutons", "amount": 1, "unit": "cup" },
+          { "name": "Parmesan Cheese", "amount": 50, "unit": "g" },
+          { "name": "Caesar Dressing", "amount": 100, "unit": "ml" },
+          { "name": "Lemon Juice", "amount": 1, "unit": "tbsp" },
+          { "name": "Black Pepper", "amount": 1, "unit": "tsp" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Wash and chop the romaine lettuce into bite-sized pieces."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "In a large bowl, toss the lettuce with croutons and grated Parmesan cheese."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Drizzle the Caesar dressing over the salad and toss to coat evenly."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Add lemon juice and freshly ground black pepper to taste. Serve immediately."
+          } 
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Beef Stroganoff",
+        "description": "Tender strips of beef in a creamy mushroom sauce.",
+        "imagePath": "https://www.foodiesfeed.com/wp-content/uploads/2015/05/paleo-ground-beef-with-vegetables-1.jpg",
+        "prepTime": 20,
+        "cookTime": 25,
+        "servings": 4,
+        "category": "Main Course",
+        "ingredients": [
+          { "name": "Beef", "amount": 500, "unit": "g" },
+          { "name": "Onions", "amount": 1, "unit": "pcs" },
+          { "name": "Garlic", "amount": 2, "unit": "cloves" },
+          { "name": "Mushrooms", "amount": 200, "unit": "g" },
+          { "name": "Beef Broth", "amount": 250, "unit": "ml" },
+          { "name": "Sour Cream", "amount": 150, "unit": "ml" },
+          { "name": "Dijon Mustard", "amount": 1, "unit": "tbsp" },
+          { "name": "Oil", "amount": 1, "unit": "tbsp" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Slice the beef into thin strips and season with salt and pepper."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "In a large pan, heat oil over medium-high heat and sear the beef until browned. Remove and set aside."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "In the same pan, add chopped onions and garlic, cooking until softened."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Add sliced mushrooms and cook until they release their moisture and begin to brown."
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Pour in the beef broth and bring to a simmer, scraping up any browned bits from the bottom of the pan."
+          },
+          {
+            "stepNumber": 6,
+            "instruction": "Stir in the sour cream and Dijon mustard, then return the beef to the pan. Simmer for another 10 minutes until the sauce thickens."
+          },
+          {
+            "stepNumber": 7,
+            "instruction": "Serve hot over egg noodles or rice."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Pancakes",
+        "description": "Fluffy and golden pancakes perfect for a weekend breakfast.",
+        "imagePath": "",
+        "prepTime": 10,
+        "cookTime": 15,
+        "servings": 4,
+        "category": "Breakfast",
+        "ingredients": [
+          { "name": "Flour", "amount": 200, "unit": "g" },
+          { "name": "Milk", "amount": 300, "unit": "ml" },
+          { "name": "Eggs", "amount": 2, "unit": "pcs" },
+          { "name": "Baking Powder", "amount": 2, "unit": "tsp" },
+          { "name": "Sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "Butter", "amount": 50, "unit": "g" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "In a large bowl, sift together the flour, baking powder, and sugar."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "In another bowl, whisk together the milk, eggs, and melted butter."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Pour the wet ingredients into the dry ingredients and mix until just combined."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Heat a non-stick pan over medium heat and lightly grease with butter."
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Pour batter onto the pan and cook until bubbles form on the surface, then flip and cook until golden brown."
+          },
+          {
+            "stepNumber": 6,
+            "instruction": "Serve hot with your choice of toppings, such as maple syrup, fruit, or whipped cream."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Margarita Pizza",
+        "description": "A simple and classic pizza with tomato, mozzarella, and basil.",
+        "imagePath": "",
+        "prepTime": 20,
+        "cookTime": 15,
+        "servings": 4,
+        "category": "Main Course",
+        "ingredients": [
+          { "name": "Pizza Dough", "amount": 1, "unit": "portion" },
+          { "name": "Tomato Sauce", "amount": 100, "unit": "ml" },
+          { "name": "Mozzarella Cheese", "amount": 200, "unit": "g" },
+          { "name": "Basil Leaves", "amount": 10, "unit": "pcs" },
+          { "name": "Olive Oil", "amount": 1, "unit": "tbsp" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Preheat the oven to 220°C (425°F)."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Roll out the pizza dough on a floured surface to your desired thickness."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Spread the tomato sauce evenly over the dough."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Top with sliced mozzarella cheese and drizzle with olive oil."
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Bake in the preheated oven for 12-15 minutes until the crust is golden and the cheese is bubbly."
+          },
+          {
+            "stepNumber": 6,
+            "instruction": "Remove from the oven and scatter fresh basil leaves over the top before serving."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Tiramisu",
+        "description": "A classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.",
+        "imagePath": "",
+        "prepTime": 30,
+        "cookTime": 0,
+        "servings": 6,
+        "category": "Dessert",
+        "ingredients": [
+          { "name": "Ladyfingers", "amount": 200, "unit": "g" },
+          { "name": "Mascarpone Cheese", "amount": 250, "unit": "g" },
+          { "name": "Eggs", "amount": 3, "unit": "pcs" },
+          { "name": "Sugar", "amount": 100, "unit": "g" },
+          { "name": "Espresso Coffee", "amount": 200, "unit": "ml" },
+          { "name": "Cocoa Powder", "amount": 2, "unit": "tbsp" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Brew the espresso coffee and let it cool to room temperature."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "In a bowl, whisk the egg yolks with sugar until pale and creamy. Stir in the mascarpone cheese until smooth."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "In a separate bowl, beat the egg whites until stiff peaks form. Gently fold them into the mascarpone mixture."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Dip the ladyfingers into the cooled espresso coffee and arrange them in a single layer in a dish."
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Spread half of the mascarpone mixture over the ladyfingers, then repeat with another layer of dipped ladyfingers and mascarpone."
+          },
+          {
+            "stepNumber": 6,
+            "instruction": "Dust the top with cocoa powder and refrigerate for at least 4 hours before serving."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Vegetable Stir Fry",
+        "description": "A quick and healthy stir fry with a mix of colorful vegetables and a savory sauce.",
+        "imagePath": "",
+        "prepTime": 15,
+        "cookTime": 10,
+        "servings": 4,
+        "category": "Main Course",
+        "ingredients": [
+          { "name": "Bell Peppers", "amount": 2, "unit": "pcs" },
+          { "name": "Broccoli", "amount": 1, "unit": "head" },
+          { "name": "Carrots", "amount": 2, "unit": "pcs" },
+          { "name": "Soy Sauce", "amount": 3, "unit": "tbsp" },
+          { "name": "Garlic", "amount": 2, "unit": "cloves" },
+          { "name": "Ginger", "amount": 1, "unit": "inch" },
+          { "name": "Oil", "amount": 2, "unit": "tbsp" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Cut the bell peppers, broccoli, and carrots into bite-sized pieces."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Heat oil in a large pan or wok over medium-high heat."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Add minced garlic and ginger, cooking for about 1 minute until fragrant."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Add the vegetables and stir-fry for 5-7 minutes until tender-crisp."
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Pour in the soy sauce and cook for an additional 2 minutes, tossing to coat the vegetables evenly."
+          },
+          {
+            "stepNumber": 6,
+            "instruction": "Serve hot with rice or noodles."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Apple Pie",
+        "description": "A classic dessert with a flaky crust and sweet apple filling.",
+        "imagePath": "",
+        "prepTime": 30,
+        "cookTime": 60,
+        "servings": 8,
+        "category": "Dessert",
+        "ingredients": [
+          { "name": "Apples", "amount": 6, "unit": "pcs" },
+          { "name": "Sugar", "amount": 150, "unit": "g" },
+          { "name": "Flour", "amount": 250, "unit": "g" },
+          { "name": "Butter", "amount": 125, "unit": "g" },
+          { "name": "Cinnamon", "amount": 1, "unit": "tbsp" },
+          { "name": "Lemon Juice", "amount": 2, "unit": "tbsp" },
+          { "name": "Egg", "amount": 1, "unit": "pcs" }
+        ],
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Preheat the oven to 200°C (400°F)."
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Peel, core, and slice the apples. Toss with sugar, cinnamon, and lemon juice."
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "In a bowl, mix the flour and butter until the mixture resembles coarse crumbs. Add cold water a little at a time until a dough forms."
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Roll out half of the dough and fit it into a pie dish. Fill with the apple mixture."
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Roll out the remaining dough and place it over the apples. Trim and crimp the edges to seal."
+          },
+          {
+            "stepNumber": 6,
+            "instruction": "Brush the top crust with a beaten egg and cut a few slits for steam to escape."
+          },
+          {
+            "stepNumber": 7,
+            "instruction": "Bake for 50-60 minutes until the crust is golden and the filling is bubbling. Let cool before serving."
+          }
+        ]
+      }
+    ]
+  }
